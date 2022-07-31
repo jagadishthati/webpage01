@@ -1,0 +1,98 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fredoka:wght@600&family=Indie+Flower&family=League+Gothic&family=Montserrat:ital,wght@1,700&family=Orbitron&family=Oswald:wght@300&family=Roboto:wght@400;700;900&family=Source+Sans+Pro:wght@200&display=swap');
+}
+.list{
+    position: absolute;
+    top: 2%;
+    left: 28%;
+    display: inline-flex;
+}
+.list-item{
+    margin-right: 27%;
+    font-family:orbitron;
+}
+.search-icon{
+    position: absolute;
+     top: 3%;
+     left: 83%;
+}
+.nav-button{
+    position: absolute;
+    left: 87%;
+    top: 4%;
+    width: 8%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 23px;
+    padding: 3px;
+}
+.square{
+    position: absolute;
+    top: 43%;
+    left: 9%;
+}
+.star{
+    position: absolute;
+    top: 25%;
+    left: 88%;
+}
+.globe{
+    position: absolute;
+    top: 16%;
+    left: 52%;
+}
+.hero-container-right {
+    position: absolute;
+    top: 34%;
+    left: 40%;
+}
+.hero-heading{
+    font-size: calc(60px + (300 - 60) * ((15vw - 300px) / (1600 - 300)));
+    font-family: orbitron;
+    font-weight: 900;
+    /* position: absolute;
+    top: 10%;
+    left: 10%; */
+
+}
+.hero{
+    width: 4vw;
+    height: 71vh;
+    position: absolute;
+    top: 19%;
+    left: 2%;
+    display: inline-flex;
+}
+hero-description div{
+    position: absolute;
+    top: 115%;
+    left: 12%;
+}
+.button-email{
+    font-family: Orbitron;
+    font-weight: 500;
+    background: white;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 19px
+}
+.button-join{
+    font-family: Orbitron;
+    font-weight: 500;
+    background:black;
+    color: white;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 19px
+}
+.icons{
+    position: absolute;
+    top: 160%;
+    left: 15%;
+}
+.contact-heading{
+    position: absolute;
+    top: 132%;
+    left: 20%;
+    font-family: orbitron;
+}
